@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<canvas id="myCanvas" width="400" height="400" style="border:1px solid #d3d3d3;"></canvas>
+<script>
+    const c = document.getElementById("myCanvas");
+    cvetrencanvas = c.getContext("2d");
+    cvetrencanvas.moveTo(0,0); //
+    cvetrencanvas.lineTo(400,100);
+    cvetrencanvas.lineTo(0,200);
+    cvetrencanvas.lineTo(400,300);
+    cvetrencanvas.lineTo(0,400);
+    cvetrencanvas.stroke();  //lệnh hiện ra đường vẽ
+</script>
+</html>
